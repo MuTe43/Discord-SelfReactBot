@@ -1,6 +1,6 @@
 # Discord self reacting selfbot
 
-The title is self explanatory.This bot uses the selfcord.py library.
+This is a Discord selfbot that self reacts to their own messages given a list of emojis to react from.
 > ⚠️ **Disclaimer**
 > This project is for educational and proof-of-concept purposes only.  
 > Use it at your own risk. The author assumes no responsibility for any misuse or damages.
