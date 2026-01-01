@@ -19,7 +19,7 @@ async def self_react(message, emoji):
 print(f'Acc Token is {bot_token}') # this was implemented as a debugging feature
 class MyClient(selfcord.Client):
     async def on_ready(self):
-        print('Logged on as', self.user) # if you're logged in you will see your name printer
+        print('Logged on as', self.user) # if you're logged in you will see your name printed
 
     async def on_message(self, message):
         if message.author.id == self.user.id:
